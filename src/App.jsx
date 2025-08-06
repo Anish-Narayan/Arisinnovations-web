@@ -1,10 +1,11 @@
 import React from 'react';
 import './index.css'; // Tailwind CSS
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">Hello, Tailwind + React!</h1>
+    <div className="App">
+      <Homepage />
     </div>
   );
 }
